@@ -6,23 +6,23 @@ This backend application provides the necessary APIs for managing tasks in the T
 
 ##Features
 ```User Authentication:
-JWT-based authentication.
-Users can log in using either email or username.
+    JWT-based authentication.
+    Users can log in using either email or username.
 Registration:
-Register users with USER or ADMIN roles.
-CRUD Operations for Tasks:
-Add, edit, delete, and retrieve tasks.
-Search Tasks:
-Search tasks by title.
+    Register users with USER or ADMIN roles.
+    CRUD Operations for Tasks:
+    Add, edit, delete, and retrieve tasks.
+ Search Tasks:
+    Search tasks by title.
 Mark Tasks:
-Mark tasks as important or completed.
-Role-based Access:
-Users with the ADMIN role can promote other users and manage their tasks.
+    Mark tasks as important or completed.
+ Role-based Access:
+    Users with the ADMIN role can promote other users and manage their tasks.
 Email Notifications:
-Send email reminders for tasks due within 24 hours.
+    Send email reminders for tasks due within 24 hours.
 Task Filtering:
-Retrieve tasks by status (completed, important).
+    Retrieve tasks by status (completed, important).
 API Response:
-Unified API response format using CommonApiResponse for consistent response structure.```
+    Unified API response format using CommonApiResponse for consistent response structure.
 
 
