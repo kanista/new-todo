@@ -1,10 +1,10 @@
-#TODO Project Backend
+TODO Project Backend
 
-##Description
+Description
 
 This backend application provides the necessary APIs for managing tasks in the TODO project. Users can perform CRUD (Create, Read, Update, Delete) operations on tasks, authenticate with JWT tokens, and receive email notifications for tasks due soon. The backend also supports role-based access control, allowing user promotion to admin roles and management of privileges.
 
-##Features
+Features
 ```
 User Authentication:
     JWT-based authentication.
@@ -35,3 +35,6 @@ Lombok: Reduces boilerplate code.
 Springdoc OpenAPI: API documentation.
 Thymeleaf & Spring Mail: Email notifications.
 ```
+## Installation
+Clone the repository:
+  git clone https://github.com/kanista/todo-project-backend.git
