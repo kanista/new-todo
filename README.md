@@ -1,6 +1,6 @@
 #TODO Project Backend
 
-#Description
+##Description
 
 This backend application provides the necessary APIs for managing tasks in the TODO project. Users can perform CRUD (Create, Read, Update, Delete) operations on tasks, authenticate with JWT tokens, and receive email notifications for tasks due soon. The backend also supports role-based access control, allowing user promotion to admin roles and management of privileges.
 
@@ -8,7 +8,7 @@ This backend application provides the necessary APIs for managing tasks in the T
 ```
 User Authentication:
     JWT-based authentication.
-    Users can log in using either email or username.
+    Users can log in using email 
 Registration:
     Register users with USER or ADMIN roles.
     CRUD Operations for Tasks:
@@ -25,5 +25,13 @@ Task Filtering:
     Retrieve tasks by status (completed, important).
 API Response:
     Unified API response format using CommonApiResponse for consistent response structure.
-
-
+```
+##Dependencies
+```
+Spring Boot: Core backend framework.
+JWT: Secure authentication.
+Spring Data JPA: ORM for database operations.
+Lombok: Reduces boilerplate code.
+Springdoc OpenAPI: API documentation.
+Thymeleaf & Spring Mail: Email notifications.
+```
