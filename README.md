@@ -1,11 +1,11 @@
-#TODO Project Backend
+##TODO Project Backend
 
-#Description
+##Description
 
 This backend application provides the necessary APIs for managing tasks in the TODO project. Users can perform CRUD (Create, Read, Update, Delete) operations on tasks, authenticate with JWT tokens, and receive email notifications for tasks due soon. The backend also supports role-based access control, allowing user promotion to admin roles and management of privileges.
 
-#Features
-User Authentication:
+##Features
+```User Authentication:
 JWT-based authentication.
 Users can log in using either email or username.
 Registration:
@@ -23,5 +23,6 @@ Send email reminders for tasks due within 24 hours.
 Task Filtering:
 Retrieve tasks by status (completed, important).
 API Response:
-Unified API response format using CommonApiResponse for consistent response structure.
+Unified API response format using CommonApiResponse for consistent response structure.```
+
 
